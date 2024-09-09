@@ -7,9 +7,6 @@ import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
-from sklearn.preprocessing import MinMaxScaler, FunctionTransformer
-from sklearn.impute import SimpleImputer
-from sklearn.pipeline import Pipeline
 
 
 def stock_download(
